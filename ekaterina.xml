@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<e-shop>
+<!--Nastaveni uzivateli -->
+<settings>
+<search>1</search>
+<comments>1</comments>
+<reviews>0</reviews>
+<languages>
+<choice1>CZ</choice1>
+<choice2>EN</choice2>
+</languages>
+<currencies>
+<currency1>KC</currency1>
+<currency2>EUR</currency2>
+</currencies>
+</settings>
+<!---->
+<Access_rights>
+<!--Katalog pro zeny -->
+<users name="Guest">
+<Add_to_cart>1</Add_to_cart>
+<Remove>1</Remove>
+<Pay>0</Pay>
+<Edit_catalogue>0</Edit_catalogue>
+<Edit_users>0</Edit_users>
+<Description>0</Description>
+</users>
+<users name="Admin">
+<Add_to_cart>0</Add_to_cart>
+<Remove>0</Remove>
+<Pay>0</Pay>
+<Edit_catalogue>1</Edit_catalogue>
+<Edit_users>1</Edit_users>
+<Description>1</Description>
+</users>
+<users name="Authorized_user">
+<Add_to_cart>1</Add_to_cart>
+<Remove>1</Remove>
+<Pay>1</Pay>
+<Edit_catalogue>0</Edit_catalogue>
+<Edit_users>0</Edit_users>
+<Description>0</Description>
+</users>
+</Access_rights>
+<Catalogue name="Women">
+<!--Katalog pro muzi -->
+
+<perfume type="Spicy">
+<Description>Spicy Perfumes Warm,sensuous perfumes infused with exotic spices.</Description>
+<goods item_number="467432">
+<Name>Opium</Name>
+<Brand>Yves Saint Laurent</Brand>
+<capacity>90 ml</capacity>
+<price currency="EUR">39.60</price>
+<rating>4.7</rating>
+<review>
+  <positive>25</positive>
+  <negative>5</negative>
+  <neutral>3</neutral>
+  </review>
+</goods>
+<goods item_number="466901">
+<Name>Gucci Guilty Perfume</Name>
+<Brand>Gucci</Brand>
+<capacity>75 ml</capacity>
+<price currency="EUR">48.60</price>
+<rating>4.5</rating>
+<review>
+  <positive>7</positive>
+  <negative>5</negative>
+  <neutral>2</neutral>
+  </review>
+</goods>
+<goods item_number="400700">
+<Name>Poison</Name>
+<Brand>Dior</Brand>
+<capacity>50 ml</capacity>
+<price currency="EUR">59.90</price>
+<rating>4.8</rating>
+<review>
+  <positive>5</positive>
+  <negative>0</negative>
+  <neutral>0</neutral>
+  </review>
+</goods>
+</perfume>
+<perfume type="Fruity">
+<Description>Fruity perfumes is compose of refreshing, light, airy, sweet, fruity notes that actually reinvented and created a new perfume classification called the floral fruity fragrance.</Description>
+<goods item_number="412997">
+<Name>Escape</Name>
+<Brand>Calvin Klein</Brand>
+<capacity>100 ml</capacity>
+<price currency="EUR">27.30</price>
+<rating>4.9</rating>
+<review>
+  <positive>30</positive>
+  <negative>12</negative>
+  <neutral>14</neutral>
+  </review>
+</goods>
+<goods item_number="416559">
+<Name>Acqua Di Gio </Name>
+<Brand>Giorgio Armani </Brand>
+<capacity>5 ml</capacity>
+<price currency="EUR">8.5</price>
+<rating>4.8</rating>
+<review>
+  <positive>9</positive>
+  <negative>1</negative>
+  <neutral>0</neutral>
+  </review>
+</goods>
+<goods item_number="502277">
+<Name>Prada Candy</Name>
+<Brand>Prada</Brand>
+<capacity>30 ml</capacity>
+<price currency="EUR">42.30</price>
+<rating>4.8</rating>
+<review>
+  <positive>15</positive>
+  <negative>0</negative>
+  <neutral>3</neutral>
+  </review>
+</goods>
+</perfume>
+<perfume type="Floral">
+
+<Description>Floral perfumes and fragrances are the most popular perfume family, these scents all contain the aromas of beautiful flowers and floral perfumes are the fragrances that are dominated by one or several types of flower notes.</Description>
+<goods item_number="413790">
+<Name>Gucci Rush 2</Name>
+<Brand>Gucci</Brand>
+<capacity>50 ml</capacity>
+<price currency="EUR">49</price>
+<rating>4.8</rating>
+<review>
+  <positive>4</positive>
+  <negative>0</negative>
+  <neutral>2</neutral>
+  </review>
+</goods>
+
+<goods item_number="429219">
+<Name>The one</Name>
+<Brand>Dolce and Gabbana</Brand>
+<capacity>50 ml</capacity>
+<price currency="EUR">37.80</price>
+<rating>4.6</rating>
+<review>
+  <positive>18</positive>
+  <negative>8</negative>
+  <neutral>3</neutral>
+  </review>
+</goods>
+<goods item_number="418466">
+<Name>Mania</Name>
+<Brand>Giorgio Armani</Brand>
+<capacity>100 ml</capacity>
+<price currency="EUR">93.30</price>
+<rating>4.3</rating>
+<review>
+  <positive>4</positive>
+  <negative>1</negative>
+  <neutral></neutral>
+  </review>
+</goods>
+
+</perfume>
+</Catalogue>
+<Collection category="Men">
+
+ <fragrance sort="Woody">
+ <Description>Woody perfumes and scents are built on base notes of bark and moss, wood oils and distillates are indispensable in perfumery that commonly use woods include sandalwood, rosewood, agarwood, birch, cedar, juniper, and pine.</Description>
+ <cologne item_number="412452">
+<Name>Higher Energy</Name>
+<Brand>Dior</Brand>
+<capacity>100 ml</capacity>
+<price currency="EUR">55</price>
+<rating>0</rating>
+<review>
+  <positive>0</positive>
+  <negative>0</negative>
+  <neutral>0</neutral>
+  </review>
+</cologne>
+ <cologne item_number="413550">
+ <Name>Gentleman</Name>
+<Brand>Givenchy</Brand>
+<capacity>100 ml</capacity>
+<price currency="EUR">33.90</price>
+<rating>4.7</rating>
+<review>
+  <positive>5</positive>
+  <negative>1</negative>
+  <neutral>1</neutral>
+  </review>
+</cologne>
+ <cologne item_number="417912">
+<Name>Kouros</Name>
+<Brand>Yves Saint Laurent </Brand>
+<capacity>100 ml</capacity>
+<price currency="EUR">39.20</price>
+<rating>4.4</rating>
+<review>
+  <positive>15</positive>
+  <negative>6</negative>
+  <neutral>5</neutral>
+  </review>
+</cologne>
+ </fragrance>
+ 
+ <fragrance sort="Fresh">
+ <Decription>The explosion of fresh colognes for men can be categorized as refreshing, invigorating scents with green aquatic notes.</Decription>
+<cologne item_number="511007">
+<Name>Hugo</Name>
+<Brand>Hugo Boss</Brand>
+<capacity>200 ml</capacity>
+<price currency="EUR">47</price>
+<rating>5.0</rating>
+<review>
+  <positive>15</positive>
+  <negative>0</negative>
+  <neutral>0</neutral>
+  </review>
+</cologne>
+
+<cologne item_number="535804">
+<Name>Eternity Summer</Name>
+<Brand>Calvin Klein</Brand>
+<capacity>100 ml</capacity>
+<price currency="EUR">23</price>
+<rating>5.0</rating>
+<review>
+  <positive>4</positive>
+  <negative>0</negative>
+  <neutral>0</neutral>
+  </review>
+</cologne>
+<cologne item_number="446863">
+<Name>Euphoria</Name>
+<Brand>Calvin Klein</Brand>
+<capacity>100 ml</capacity>
+<price currency="EUR">21</price>
+<rating>4.3</rating>
+<review>
+  <positive>10</positive>
+  <negative>4</negative>
+  <neutral>0</neutral>
+  </review>
+</cologne>
+
+</fragrance>
+<fragrance sort="Citrus">
+<Discription>Citrus – Citrus fragrance colognes are fresh, fruity and bursting with crisp and zesty essences like lemons, limes and oranges.</Discription>
+ <cologne item_number="4641191">
+ <Name>Guerlain Homme Intense</Name>
+ <Brand>Guerlain Cologne</Brand>
+ <capacity>80</capacity>
+<price currency="EUR">44.80</price>
+<rating>0</rating>
+<review>
+  <positive>0</positive>
+  <negative>0</negative>
+  <neutral>0</neutral>
+  </review>
+  </cologne>
+
+<cologne item_number="492809">
+ <Name>Armani Code Sport</Name>
+ <Brand>Giorgio Armani</Brand>
+ <capacity>75</capacity>
+<price currency="EUR">68.60</price>
+<rating>5</rating>
+<review>
+  <positive>5</positive>
+  <negative>0</negative>
+  <neutral>0</neutral>
+  </review>
+  </cologne>
+<cologne item_number="466725">
+ <Name>Boss Pure</Name>
+ <Brand>Hugo Boss</Brand>
+ <capacity>75</capacity>
+<price currency="EUR">24.50</price>
+<rating>4.3</rating>
+<review>
+  <positive>13</positive>
+  <negative>5</negative>
+  <neutral>2</neutral>
+  </review>
+  </cologne>
+</fragrance>
+</Collection>
+ 
+</e-shop>
+
+
+
+ 
+ 

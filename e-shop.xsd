@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schemaxmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Sun Apr 23 2017 19:33:18 GMT+0200 (Центральная Европа (лето)) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:elementname="e-shop">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:elementname="settings">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:elementname="search" type="xs:int"></xs:element>
+                                             <xs:elementname="comments" type="xs:int"></xs:element>
+                                             <xs:elementname="reviews" type="xs:int"></xs:element>
+                                             <xs:elementname="languages">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:elementname="choice1" type="xs:string"></xs:element>
+                                                               <xs:elementname="choice2" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:elementname="currencies">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:elementname="currency1" type="xs:string"></xs:element>
+                                                               <xs:elementname="currency2" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:elementname="Access_rights">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:elementname="users" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:elementname="Add_to_cart" type="xs:int"></xs:element>
+                                                               <xs:elementname="Remove" type="xs:int"></xs:element>
+                                                               <xs:elementname="Pay" type="xs:int"></xs:element>
+                                                               <xs:elementname="Edit_catalogue" type="xs:int"></xs:element>
+                                                               <xs:elementname="Edit_users" type="xs:int"></xs:element>
+                                                               <xs:elementname="Description" type="xs:int"></xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attributename="name" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:elementname="Catalogue">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:elementname="perfume" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:elementname="Description" type="xs:string"></xs:element>
+                                                               <xs:elementname="goods" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:elementname="Name" type="xs:string"></xs:element>
+                                                                                 <xs:elementname="Brand" type="xs:string"></xs:element>
+                                                                                 <xs:elementname="capacity" type="xs:string"></xs:element>
+                                                                                 <xs:elementname="price" type="xs:double">
+                                                                                       <xs:complexType>
+                                                                                             <xs:attributename="currency" type="xs:string"></xs:attribute>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                                 <xs:elementname="rating" type="xs:double"></xs:element>
+                                                                                 <xs:elementname="review">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:elementname="positive" type="xs:int"></xs:element>
+                                                                                                   <xs:elementname="negative" type="xs:int"></xs:element>
+                                                                                                   <xs:elementname="neutral" type="xs:int"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                           <xs:attributename="item_number" type="xs:int"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attributename="type" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                       <xs:attributename="name" type="xs:string"></xs:attribute>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:elementname="Collection">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:elementname="fragrance" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:elementname="Description" type="xs:string"></xs:element>
+                                                               <xs:elementname="cologne" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:elementname="Name" type="xs:string"></xs:element>
+                                                                                 <xs:elementname="Brand" type="xs:string"></xs:element>
+                                                                                 <xs:elementname="capacity" type="xs:string"></xs:element>
+                                                                                 <xs:elementname="price" type="xs:int">
+                                                                                       <xs:complexType>
+                                                                                             <xs:attributename="currency" type="xs:string"></xs:attribute>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                                 <xs:elementname="rating" type="xs:int"></xs:element>
+                                                                                 <xs:elementname="review">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:elementname="positive" type="xs:int"></xs:element>
+                                                                                                   <xs:elementname="negative" type="xs:int"></xs:element>
+                                                                                                   <xs:elementname="neutral" type="xs:int"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                           <xs:attributename="item_number" type="xs:int"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attributename="sort" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                       <xs:attributename="category" type="xs:string"></xs:attribute>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+ 

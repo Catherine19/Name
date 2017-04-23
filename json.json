@@ -1,0 +1,355 @@
+{
+	"e-shop": {
+		"comment": ["", ""],
+		"settings": {
+			"search": "1",
+			"comments": "1",
+			"reviews": "0",
+			"languages": {
+				"choice1": "CZ",
+				"choice2": "EN"
+			},
+			"currencies": {
+				"currency1": "KC",
+				"currency2": "EUR"
+			}
+		},
+		"Access_rights": {
+			"comment": "",
+			"users": [{
+				"@attributes": {
+					"name": "Guest"
+				},
+				"Add_to_cart": "1",
+				"Remove": "1",
+				"Pay": "0",
+				"Edit_catalogue": "0",
+				"Edit_users": "0",
+				"Description": "0"
+			}, {
+				"@attributes": {
+					"name": "Admin"
+				},
+				"Add_to_cart": "0",
+				"Remove": "0",
+				"Pay": "0",
+				"Edit_catalogue": "1",
+				"Edit_users": "1",
+				"Description": "1"
+			}, {
+				"@attributes": {
+					"name": "Authorized_user"
+				},
+				"Add_to_cart": "1",
+				"Remove": "1",
+				"Pay": "1",
+				"Edit_catalogue": "0",
+				"Edit_users": "0",
+				"Description": "0"
+			}]
+		},
+		"Section": {
+			"Catalogue": {
+				"@attributes": {
+					"name": "Women"
+				},
+				"comment": "",
+				"perfume": [{
+					"@attributes": {
+						"type": "Spicy"
+					},
+					"Description": "Spicy Perfumes Warm,sensuous perfumes infused with exotic spices.",
+					"goods": [{
+						"@attributes": {
+							"item_number": "467432"
+						},
+						"Name": "Opium",
+						"Brand": "Yves Saint Laurent",
+						"capacity": "90 ml",
+						"price": "39.60",
+						"rating": "4.7",
+						"review": {
+							"positive": "25",
+							"negative": "5",
+							"neutral": "3"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "466901"
+						},
+						"Name": "Gucci Guilty Perfume",
+						"Brand": "Gucci",
+						"capacity": "75 ml",
+						"price": "48.60",
+						"rating": "4.5",
+						"review": {
+							"positive": "7",
+							"negative": "5",
+							"neutral": "2"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "400700"
+						},
+						"Name": "Poison",
+						"Brand": "Dior",
+						"capacity": "50 ml",
+						"price": "59.90",
+						"rating": "4.8",
+						"review": {
+							"positive": "5",
+							"negative": "0",
+							"neutral": "0"
+						}
+					}]
+				}, {
+					"@attributes": {
+						"type": "Fruity"
+					},
+					"Description": "Fruity perfumes is compose of refreshing, light, airy, sweet, fruity notes that actually reinvented and created a new perfume classification called the floral fruity fragrance.",
+					"goods": [{
+						"@attributes": {
+							"item_number": "412997"
+						},
+						"Name": "Escape",
+						"Brand": "Calvin Klein",
+						"capacity": "100 ml",
+						"price": "27.30",
+						"rating": "4.9",
+						"review": {
+							"positive": "30",
+							"negative": "12",
+							"neutral": "14"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "416559"
+						},
+						"Name": "Acqua Di Gio",
+						"Brand": "Giorgio Armani",
+						"capacity": "5 ml",
+						"price": "8.5",
+						"rating": "4.8",
+						"review": {
+							"positive": "9",
+							"negative": "1",
+							"neutral": "0"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "502277"
+						},
+						"Name": "Prada Candy",
+						"Brand": "Prada",
+						"capacity": "30 ml",
+						"price": "42.30",
+						"rating": "4.8",
+						"review": {
+							"positive": "15",
+							"negative": "0",
+							"neutral": "3"
+						}
+					}]
+				}, {
+					"@attributes": {
+						"type": "Floral"
+					},
+					"Description": "Floral perfumes and fragrances are the most popular perfume family, these scents all contain the aromas of beautiful flowers and floral perfumes are the fragrances that are dominated by one or several types of flower notes.",
+					"goods": [{
+						"@attributes": {
+							"item_number": "413790"
+						},
+						"Name": "Gucci Rush 2",
+						"Brand": "Gucci",
+						"capacity": "50 ml",
+						"price": "49",
+						"rating": "4.8",
+						"review": {
+							"positive": "4",
+							"negative": "0",
+							"neutral": "2"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "429219"
+						},
+						"Name": "The one",
+						"Brand": "Dolce and Gabbana",
+						"capacity": "50 ml",
+						"price": "37.80",
+						"rating": "4.6",
+						"review": {
+							"positive": "18",
+							"negative": "8",
+							"neutral": "3"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "418466"
+						},
+						"Name": "Mania",
+						"Brand": "Giorgio Armani",
+						"capacity": "100 ml",
+						"price": "93.30",
+						"rating": "4.3",
+						"review": {
+							"positive": "4",
+							"negative": "1",
+							"neutral": ""
+						}
+					}]
+				}]
+			},
+			"Collection": {
+				"@attributes": {
+					"category": "Men"
+				},
+				"fragrance": [{
+					"@attributes": {
+						"sort": "Woody"
+					},
+					"Description": "Woody perfumes and scents are built on base notes of bark and moss, wood oils and distillates are indispensable in perfumery that commonly use woods include sandalwood, rosewood, agarwood, birch, cedar, juniper, and pine.",
+					"cologne": [{
+						"@attributes": {
+							"item_number": "412452"
+						},
+						"Name": "Higher Energy",
+						"Brand": "Dior",
+						"capacity": "100 ml",
+						"price": "55",
+						"rating": "0",
+						"review": {
+							"positive": "0",
+							"negative": "0",
+							"neutral": "0"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "413550"
+						},
+						"Name": "Gentleman",
+						"Brand": "Givenchy",
+						"capacity": "100 ml",
+						"price": "33.90",
+						"rating": "4.7",
+						"review": {
+							"positive": "5",
+							"negative": "1",
+							"neutral": "1"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "417912"
+						},
+						"Name": "Kouros",
+						"Brand": "Yves Saint Laurent",
+						"capacity": "100 ml",
+						"price": "39.20",
+						"rating": "4.4",
+						"review": {
+							"positive": "15",
+							"negative": "6",
+							"neutral": "5"
+						}
+					}]
+				}, {
+					"@attributes": {
+						"sort": "Fresh"
+					},
+					"Decription": "The explosion of fresh colognes for men can be categorized as refreshing, invigorating scents with green aquatic notes.",
+					"cologne": [{
+						"@attributes": {
+							"item_number": "511007"
+						},
+						"Name": "Hugo",
+						"Brand": "Hugo Boss",
+						"capacity": "200 ml",
+						"price": "47",
+						"rating": "5.0",
+						"review": {
+							"positive": "15",
+							"negative": "0",
+							"neutral": "0"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "535804"
+						},
+						"Name": "Eternity Summer",
+						"Brand": "Calvin Klein",
+						"capacity": "100 ml",
+						"price": "23",
+						"rating": "5.0",
+						"review": {
+							"positive": "4",
+							"negative": "0",
+							"neutral": "0"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "446863"
+						},
+						"Name": "Euphoria",
+						"Brand": "Calvin Klein",
+						"capacity": "100 ml",
+						"price": "21",
+						"rating": "4.3",
+						"review": {
+							"positive": "10",
+							"negative": "4",
+							"neutral": "0"
+						}
+					}]
+				}, {
+					"@attributes": {
+						"sort": "Citrus"
+					},
+					"Discription": "Citrus \u2013 Citrus fragrance colognes are fresh, fruity and bursting with crisp and zesty essences like lemons, limes and oranges.",
+					"cologne": [{
+						"@attributes": {
+							"item_number": "4641191"
+						},
+						"Name": "Guerlain Homme Intense",
+						"Brand": "Guerlain Cologne",
+						"capacity": "80",
+						"price": "44.80",
+						"rating": "0",
+						"review": {
+							"positive": "0",
+							"negative": "0",
+							"neutral": "0"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "492809"
+						},
+						"Name": "Armani Code Sport",
+						"Brand": "Giorgio Armani",
+						"capacity": "75",
+						"price": "68.60",
+						"rating": "5",
+						"review": {
+							"positive": "5",
+							"negative": "0",
+							"neutral": "0"
+						}
+					}, {
+						"@attributes": {
+							"item_number": "466725"
+						},
+						"Name": "Boss Pure",
+						"Brand": "Hugo Boss",
+						"capacity": "75",
+						"price": "24.50",
+						"rating": "4.3",
+						"review": {
+							"positive": "13",
+							"negative": "5",
+							"neutral": "2"
+						}
+					}]
+				}]
+			}
+		}
+	}
+}
